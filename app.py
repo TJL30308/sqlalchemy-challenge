@@ -3,6 +3,7 @@ import datetime as dt
 import sqlalchemy
 from sqlalchemy.ext.automap import automap_base
 from sqlalchemy import create_engine
+from sqlalchemy import func
 from sqlalchemy.orm import Session
 from flask import Flask, jsonify
 
